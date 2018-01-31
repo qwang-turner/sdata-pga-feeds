@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.sort.roundresults.courses;
+
+
+message CourseProtobuf {
+	string name = 1; //The Ocean Course
+	string shortname = 2; //
+
+}

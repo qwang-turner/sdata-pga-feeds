@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.score.golfscores.rounds;
+import "com/turner/pga/scoring/data/pga/input/score/golfscores/rounds/round/GroupProtobuf.proto";
+
+
+message RoundProtobuf {
+	int32 ID = 1; //1
+	int32 MaxHoles = 2; //18
+	repeated com.turner.pga.scoring.data.pga.input.score.golfscores.rounds.round.GroupProtobuf Group = 3;
+
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.score;
+import "com/turner/pga/scoring/data/pga/input/score/golfscores/RoundsProtobuf.proto";
+
+
+message GolfscoresProtobuf {
+	com.turner.pga.scoring.data.pga.input.score.golfscores.RoundsProtobuf Rounds = 1;
+
+}

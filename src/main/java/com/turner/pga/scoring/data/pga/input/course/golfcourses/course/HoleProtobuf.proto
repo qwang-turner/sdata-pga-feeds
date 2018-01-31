@@ -1,0 +1,10 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.course.golfcourses.course;
+
+
+message HoleProtobuf {
+	int32 Yardage = 1; //396
+	int32 ID = 2; //1
+	int32 Par = 3; //4
+
+}

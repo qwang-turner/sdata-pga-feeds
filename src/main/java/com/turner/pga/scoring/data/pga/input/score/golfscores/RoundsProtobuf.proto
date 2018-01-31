@@ -1,0 +1,10 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.score.golfscores;
+import "com/turner/pga/scoring/data/pga/input/score/golfscores/rounds/RoundProtobuf.proto";
+
+
+message RoundsProtobuf {
+	int32 Curr = 1; //1
+	repeated com.turner.pga.scoring.data.pga.input.score.golfscores.rounds.RoundProtobuf Round = 2;
+
+}

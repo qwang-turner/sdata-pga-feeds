@@ -1,0 +1,13 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.score.golfscores.rounds.round;
+import "com/turner/pga/scoring/data/pga/input/score/golfscores/rounds/round/group/PlayerProtobuf.proto";
+
+
+message GroupProtobuf {
+	int32 Course = 1; //1
+	int32 Start = 2; //1
+	int32 ID = 3; //1
+	string TTime = 4; //7:00
+	repeated com.turner.pga.scoring.data.pga.input.score.golfscores.rounds.round.group.PlayerProtobuf Player = 5;
+
+}

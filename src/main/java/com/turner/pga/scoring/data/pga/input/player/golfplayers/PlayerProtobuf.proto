@@ -1,0 +1,17 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.player.golfplayers;
+
+
+message PlayerProtobuf {
+	int32 ClubPro = 1; //0
+	int32 CutStatus = 2; //0
+	int32 pgahqid = 3; //10802
+	int32 ID = 4; //910802
+	string CurrentRound = 5; //
+	string FirstName = 6; //Clint
+	string LastName = 7; //Ables
+	string Country = 8; //
+	string CountryDisplay = 9; //
+	int32 MailCountryID = 10; //237
+
+}

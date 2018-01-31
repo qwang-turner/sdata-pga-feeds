@@ -1,0 +1,8 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.setting;
+
+
+message PgasettingsProtobuf {
+	int32 timezone = 1; //5
+
+}

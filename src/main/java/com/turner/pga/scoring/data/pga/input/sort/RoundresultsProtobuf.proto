@@ -1,0 +1,15 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.sort;
+import "com/turner/pga/scoring/data/pga/input/sort/roundresults/ScoreboardProtobuf.proto";
+import "com/turner/pga/scoring/data/pga/input/sort/roundresults/CoursesProtobuf.proto";
+
+
+message RoundresultsProtobuf {
+	string enableplayerholebyhole = 1; //true
+	int32 currentround = 2; //1
+	int32 eventid = 3; //5000
+	string eventname = 4; //PGA Champ Test
+	com.turner.pga.scoring.data.pga.input.sort.roundresults.ScoreboardProtobuf Scoreboard = 5;
+	com.turner.pga.scoring.data.pga.input.sort.roundresults.CoursesProtobuf Courses = 6;
+
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.sort.roundresults.scoreboard;
+
+
+message PlayerProtobuf {
+	string course = 1; //
+	int32 externalid = 2; //22655
+	string thru = 3; //
+	int32 sortorder = 4; //144
+	string displaycutline = 5; //Projected After Round 2 - Cut to low 70 + ties
+	string lastname = 6; //Bruner
+	string informalname = 7; // Jerry
+	int32 playerid = 8; //11029
+	string place = 9; //T83
+	int32 in = 10; //79
+	string totalscore = 11; //E
+	int32 holesplayed = 12; //0
+	int32 out = 13; //40
+
+}

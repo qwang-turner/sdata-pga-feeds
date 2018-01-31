@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.score.golfscores.rounds.round.group;
+
+
+message PlayerProtobuf {
+	string Status = 1; //WIN
+	string Scores = 2; //5,5,4,5,5,3,4,3,4,3,5,3,4,,,,,
+	int32 ID = 3; //80008
+	int32 PGAHQID = 4; //10494
+
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.course.golfcourses;
+import "com/turner/pga/scoring/data/pga/input/course/golfcourses/course/HoleProtobuf.proto";
+
+
+message CourseProtobuf {
+	string Name = 1; //The Ocean Course
+	string ShortName = 2; //
+	int32 ID = 3; //1
+	repeated com.turner.pga.scoring.data.pga.input.course.golfcourses.course.HoleProtobuf Hole = 4;
+
+}

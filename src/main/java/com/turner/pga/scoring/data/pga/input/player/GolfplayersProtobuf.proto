@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.turner.pga.scoring.data.pga.input.player;
+import "com/turner/pga/scoring/data/pga/input/player/golfplayers/PlayerProtobuf.proto";
+
+
+message GolfplayersProtobuf {
+	repeated com.turner.pga.scoring.data.pga.input.player.golfplayers.PlayerProtobuf Player = 1;
+
+}
